@@ -1,0 +1,72 @@
+<style>
+
+    /*卡片全局样式*/
+.card {
+    font-family:Helvetica,Arial,Sans-serif;
+    font-size:16px;
+    text-align:left;
+    color:#1d2129;
+    background-color:#e9ebee;
+}
+.section {
+    border:1px solid;
+    border-color:#e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius:3px;
+    background-color:#fff;
+    position:relative;
+    margin:5px 0;
+}
+.item {
+    margin:0 10px;
+    padding:10px 0;
+}
+.section p {
+    padding:0 10px
+}
+.center {
+    text-align:center
+}
+hr {
+    border:0;
+    margin:0 12px;
+    border-top:1px solid #e5e5e5;
+}
+#voice {
+    font-family:Helvetica,Arial,Sans-serif;
+    font-size:16px;
+    text-align:left;
+    color:#1d2129;
+}
+#voice label {
+    display:block;
+    float:right;
+    padding-top:5px;
+}
+#voice img,#tv img {
+    vertical-align:middle;
+    padding:0 5px 0 10px;
+}
+p {
+    font-size:16px;
+    line-height:1.5em;
+    margin:0.5em 0;
+    text-align:center;
+}
+.gray {
+    color:#666
+}
+.footer {
+    display:block;
+    position:fixed;
+    right:10%;
+    bottom:2%;
+}
+.footer p {
+    font-size:12px;
+    font-style:italic;
+    color:gray;
+}
+#tv-src {
+    display:none
+}
+</style>

@@ -1,0 +1,29 @@
+<!-- front -->
+<div id="stage-face" class="section" >
+    <img src="_mj_friends01.jpg" width="100%" height="auto">
+</div>
+<div class="section">
+    <div id="tv-src">{{Video}}</div>
+    <div id="tv" class="item">
+        <video width="100%" height="auto" controls="controls" poster="_friends01.jpg">
+            <source src="{{Video}}" type="video/mp4">
+        </video>
+        <span>播放视频：</span>
+        <img src="_mj_play_button.png" onClick="playVideo();">
+    </div>
+</div>
+
+<div class="section">
+    <!--<div style="dispaly:none">[sound:{{Audio}}]</div>-->
+    <div id="voice" class="item">
+        <span>播放音频：</span>
+        <img src="_mj_play_button.png" onClick="playAudio(1);">
+        <img src="_mj_pause_button.png" class="mobile" onClick="playAudio(0);">
+        <audio id="audiotag" src="{{Audio}}" style="display:none"></audio>
+        <label class="mobile"><input id="loop" name="loop" type="checkbox" onclick="loopAudio(this);"/>循环播放</label>
+    </div>
+</div>
+
+<div class="footer">
+    <p>{{Timeline}}</p>
+</div>

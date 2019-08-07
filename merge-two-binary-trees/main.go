@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//https://leetcode.com/problems/merge-two-binary-trees/submissions/
+//https://leetcode.com/problems/merge-two-binary-trees
 
 type TreeNode struct {
 	Val int
